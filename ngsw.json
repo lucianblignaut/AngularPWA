@@ -1,0 +1,101 @@
+{
+  "configVersion": 1,
+  "timestamp": 1666520397126,
+  "index": "https://lucianblignaut.github.io/AngularPWA/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://lucianblignaut.github.io/AngularPWA/favicon.ico",
+        "https://lucianblignaut.github.io/AngularPWA/index.html",
+        "https://lucianblignaut.github.io/AngularPWA/main.41e60e2b6da45b9a.js",
+        "https://lucianblignaut.github.io/AngularPWA/manifest.webmanifest",
+        "https://lucianblignaut.github.io/AngularPWA/polyfills.3ecf1cd51e0b118d.js",
+        "https://lucianblignaut.github.io/AngularPWA/runtime.2b3eb82dc8cb496b.js",
+        "https://lucianblignaut.github.io/AngularPWA/styles.f250c76e291c4385.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css2\\?family=Montserrat:wght@400;500;600;700&amp;display=swap",
+        "https:\\/\\/fonts\\.gstatic\\.com\\/.*"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://lucianblignaut.github.io/AngularPWA/assets/icons/icon-128x128.png",
+        "https://lucianblignaut.github.io/AngularPWA/assets/icons/icon-144x144.png",
+        "https://lucianblignaut.github.io/AngularPWA/assets/icons/icon-152x152.png",
+        "https://lucianblignaut.github.io/AngularPWA/assets/icons/icon-192x192.png",
+        "https://lucianblignaut.github.io/AngularPWA/assets/icons/icon-384x384.png",
+        "https://lucianblignaut.github.io/AngularPWA/assets/icons/icon-512x512.png",
+        "https://lucianblignaut.github.io/AngularPWA/assets/icons/icon-72x72.png",
+        "https://lucianblignaut.github.io/AngularPWA/assets/icons/icon-96x96.png",
+        "https://lucianblignaut.github.io/AngularPWA/assets/models/syncToDo.model.ts"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "todosAPI",
+      "patterns": [
+        "https:\\/\\/jsonplaceholder\\.typicode\\.com\\/todos"
+      ],
+      "strategy": "freshness",
+      "maxSize": 5,
+      "maxAge": 7200000,
+      "timeoutMs": 5000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "https://lucianblignaut.github.io/AngularPWA/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://lucianblignaut.github.io/AngularPWA/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://lucianblignaut.github.io/AngularPWA/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://lucianblignaut.github.io/AngularPWA/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://lucianblignaut.github.io/AngularPWA/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://lucianblignaut.github.io/AngularPWA/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://lucianblignaut.github.io/AngularPWA/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://lucianblignaut.github.io/AngularPWA/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://lucianblignaut.github.io/AngularPWA/assets/models/syncToDo.model.ts": "52631296a0ff4e65612c15a64972b75798ce2b27",
+    "https://lucianblignaut.github.io/AngularPWA/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://lucianblignaut.github.io/AngularPWA/index.html": "8614ae875091af33b8be76ec1c06f5dc4518a75a",
+    "https://lucianblignaut.github.io/AngularPWA/main.41e60e2b6da45b9a.js": "af248781cebf7e221a38932b9983d8b65264bf9e",
+    "https://lucianblignaut.github.io/AngularPWA/manifest.webmanifest": "877aa4e9a503b79abd9b3a72d60af2b4c0af262b",
+    "https://lucianblignaut.github.io/AngularPWA/polyfills.3ecf1cd51e0b118d.js": "d979c78f0f4f131796cf3032bcf273fb7d98a9f3",
+    "https://lucianblignaut.github.io/AngularPWA/runtime.2b3eb82dc8cb496b.js": "b9c58bedd7b9ab2bac31e6a51628b39daf55ccfd",
+    "https://lucianblignaut.github.io/AngularPWA/styles.f250c76e291c4385.css": "91d7c512dce316030ad6d0ee7838dc4d72bd2ce4"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
