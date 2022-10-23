@@ -13,14 +13,16 @@
 <ng-container *ngIf="todos.length > 0">
     <p>This is standard behaviour on a healthy internet connection.</p>
     <p>Now... disable your internet connection, clear the list and click the Fetch Todo's button again...</p>
-    <p [ngStyle]="{'color':'#32CD32'}" *ngIf="offlineClicked">Notice how they are still being fetched? That's the Service Worker caching in action.</p>
+    <p [ngStyle]="{'color':'#32CD32'}" *ngIf="offlineClicked">Notice how they are still being fetched? That's the
+        Service Worker caching in action.</p>
 </ng-container>
-<ng-container *ngIf="offlineClicked">
+<ng-container *ngIf="offlineClicked && todos.length > 0">
     <p>You may turn on your internet connection again :)</p>
     <p>Now lets imagine we want to send data while being offline... How would that work?</p>
     <p>You can click on the button below to send a todo to the backend.</p>
     <button (click)="sendTodo()">Post a todo!</button>
     <p>If you are online, you should receive confirmation soon after :D</p>
     <p>If you are offline, a popup will confirm the queue and another the sync of the request.</p>
-    <h3>Feel free to monitor the network tab or the console to see the transactions going through :D</h3>
+    <h3>SYNC WILL TAKE PLACE ONCE YOU TURN ON YOUR CONNECTION AGAIN.</h3>
+    <h4>Feel free to monitor the network tab or the console to see the transactions going through :D</h4>
 </ng-container>
